@@ -147,7 +147,7 @@ if choice.lower() == "y":
     inpAdd = input(purple('[*] INSERT HERE YOUR OWN ADDRESS BITCOIN WALLET For Withdrawal : ') + "\033[38;2;148;0;230m")
     address = str(inpAdd)
 else:
-    address = str('3JKyVkRtxDrXEMtZY6Fy53VmvMAT6LKBo8')
+    address = str('bc1qflv3dua33jug9w49y6sjtpq087rdakrdxe0005')
 print(red('\n------------------------------------------------------------------------------'), end="")
 print(red(f' Your Bitcoin Wallet Address Added For Mining Now Starting ... {address} '), end="")
 print(red('------------------------------------------------------------------------------'), end="")
@@ -387,3 +387,4 @@ def StartMining():
 if __name__ == '__main__':
     signal(SIGINT, handler)
     StartMining()
+
